@@ -16,11 +16,11 @@
 
 * Theme list
 #+BEGIN_SRC sh :results output replace :exports results
-ls theme/*.css|awk '/\.css/{print "https://raw.githubusercontent.com/liyaodong/org-mode-theme/master/"$0""}'
+cd docs/ && ls *.css|awk '/\.css/{print "https://org-mode-theme.liyaodong.com/"$0""}'
 #+END_SRC
 
 #+RESULTS:
-: https://raw.githubusercontent.com/liyaodong/org-mode-theme/master/theme/email-clean-enough.css
+: https://org-mode-theme.liyaodong.com/email-clean-enough.css
 
 Think about this theme list is out of date?
 
@@ -31,3 +31,7 @@ Click [[https://org-mode-theme.liyaodong.com/][here]] to see the theme of this d
 
 * Contribution
 PR is welcome :p
+
+* Thanks
+Thanks for below repor
+This theme is actually base on the [[https://github.com/gongzhitaao/orgcss][orgcss project]], thanks for all your work!
