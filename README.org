@@ -16,8 +16,11 @@
 
 * Theme list
 #+BEGIN_SRC sh :results output replace :exports results
-ls theme/*.css|awk '/\.css/{print "https://raw.githubusercontent.com/liyaodong/org-mode-theme/master/"$0" "}'
+ls theme/*.css|awk '/\.css/{print "https://raw.githubusercontent.com/liyaodong/org-mode-theme/master/"$0""}'
 #+END_SRC
+
+#+RESULTS:
+: https://raw.githubusercontent.com/liyaodong/org-mode-theme/master/theme/email-clean-enough.css
 
 Think about this theme list is out of date?
 
