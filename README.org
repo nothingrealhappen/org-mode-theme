@@ -24,7 +24,7 @@ ls theme/*.css|awk '/\.css/{print "https://raw.githubusercontent.com/liyaodong/o
 
 Think about this theme list is out of date?
 
-:doge: No Way ! I'm using the tool [[https://orgmode.org/worg/org-contrib/babel/][babel]] in org-mode that can provide real-time scripting feature! (just kidding, press the ~C-c C-c~ can update the list by shell script)
+No Way ! I'm using the tool [[https://orgmode.org/worg/org-contrib/babel/][babel]] in org-mode that can provide real-time scripting feature! (just kidding, press the ~C-c C-c~ can update the list by shell script)
 
 * Demo
 Click [[https://org-mode-theme.liyaodong.com/][here]] to see the theme of this document.
