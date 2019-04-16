@@ -1,7 +1,7 @@
 #+OPTIONS: html-postamble:nil
 #+OPTIONS: toc:nil
 #+EXPORT_FILE_NAME: docs/index.html
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/liyaodong/org-mode-theme/master/theme/email-clean-enough.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://org-mode-theme.liyaodong.com/email-clean-enough.css"/>
 
 * Why This Project?
   [[https://orgmode.org/worg/org-web.html][Org-mode]] is the most powerful tool I've used, usually I'll use org-mode to write slides by [[https://github.com/yjwen/org-reveal][org-reveal]] or write blog post, I found writting email in Gmail is not that perfect as a frontend developer who using emacs and vim. what if I can write email in emacs by using vim? what if I can use css and html to beautify it? Yes! Genius! right, the repo will store my themes for org exported html by using ~C-c C-e h o~.
@@ -10,7 +10,7 @@
 - Write your email or document by org-mode
 - Add below meta information on top of the org file
 #+BEGIN_SRC orgmode
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/liyaodong/org-mode-theme/master/theme/email-clean-enough.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://org-mode-theme.liyaodong.com/email-clean-enough.css"/>
 #+END_SRC
 - export to html by ~C-c C-e h o~
 
