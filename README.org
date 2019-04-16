@@ -1,0 +1,30 @@
+#+OPTIONS: html-postamble:nil
+#+OPTIONS: toc:nil
+#+EXPORT_FILE_NAME: docs/index.html
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/liyaodong/org-mode-theme/master/theme/email-clean-enough.css"/>
+
+* Why This Project?
+  [[https://orgmode.org/worg/org-web.html][Org-mode]] is the most powerful tool I've used, usually I'll use org-mode to write slides by [[https://github.com/yjwen/org-reveal][org-reveal]] or write blog post, I found writting email in Gmail is not that perfect as a frontend developer who using emacs and vim. what if I can write email in emacs by using vim? what if I can use css and html to beautify it? Yes! Genius! right, the repo will store my themes for org exported html by using ~C-c C-e h o~.
+
+* How to use?
+- Write your email or document by org-mode
+- Add below meta information on top of the org file
+#+BEGIN_SRC orgmode
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/liyaodong/org-mode-theme/master/theme/email-clean-enough.css"/>
+#+END_SRC
+- export to html by ~C-c C-e h o~
+
+* Theme list
+#+BEGIN_SRC sh :results output replace :exports results
+ls theme/*.css|awk '/\.css/{print "https://raw.githubusercontent.com/liyaodong/org-mode-theme/master/"$0" "}'
+#+END_SRC
+
+Think about this theme list is out of date?
+
+:doge: No Way ! I'm using the tool [[https://orgmode.org/worg/org-contrib/babel/][babel]] in org-mode that can provide real-time scripting feature! (just kidding, press the ~C-c C-c~ can update the list by shell script)
+
+* Demo
+Click [[https://org-mode-theme.liyaodong.com/][here]] to see the theme of this document.
+
+* Contribution
+PR is welcome :p
