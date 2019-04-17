@@ -1859,7 +1859,7 @@ body {
 }
 @media screen and (min-width:600px) {
     body {
-        font-size:18px
+        font-size: 14px;
     }
 }
 @media screen and (min-width:910px) {
@@ -1871,7 +1871,12 @@ body {
     background:#d6edff
 }
 dl, ol, p, ul {
-    margin:0 auto
+    margin:0 auto;
+}
+ul {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
 }
 .title {
     text-align:center;
@@ -1940,13 +1945,13 @@ img {
 }
 h1, h2, h3, h4, h5, h6 {
     color: #4a4a4a;
-    line-height:1em;
+    line-height: 1.4em;
 }
 h1, h2, h3 {
     line-height:1.4em
 }
 h4, h5, h6 {
-    font-size:1em
+    font-size: 14px;
 }
 @media screen and (min-width:600px) {
     h1 {
@@ -1962,7 +1967,7 @@ h4, h5, h6 {
         line-height:1.4em
     }
     h4, h5, h6 {
-        font-size:1.1em
+        font-size: 14px;
     }
 }
 dt {
@@ -2022,8 +2027,13 @@ kbd {
     margin:0 .1em;
     padding:.1em .6em
 }
+.todo, .done {
+    margin: 0 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
 .todo {
-    background-color:red;
+    background-color:#d64747;
     color:#fff;
     padding:.1em .3em;
     border-radius:3px;
@@ -2033,7 +2043,7 @@ kbd {
     line-height:1
 }
 .done {
-    background-color:green;
+    background-color:#009400;
     color:#fff;
     padding:.1em .3em;
     border-radius:3px;
@@ -2062,12 +2072,12 @@ kbd {
     border-radius:3px;
     background-clip:padding-box;
     color:#333;
-    background-color:#eee;
-    line-height:1
+    background-color: #fdf3be;
+    line-height:1;
 }
 .timestamp {
-    color:#bebebe;
-    font-size:90%
+    color: #940900;
+    font-size:90%;
 }
 .timestamp-kwd {
     color:#5f9ea0
@@ -2383,12 +2393,14 @@ h2 {
     font-weight: 600;
     font-family: "Trebuchet MS";
 }
-h3 {
-    font-size: 15px;
-    font-weight: normal;
+h3, h4, h5 {
     margin: 0;
     margin-top: 10px;
     margin-left: 20px;
+    font-weight: normal;
+}
+h3 {
+    font-size: 15px;
 }
 h3::before {
     content: "";
@@ -2402,6 +2414,7 @@ h3::before {
 a {
     color: #ad4646;
     margin: 0 5px;
+    word-break: break-word;
 }
 a::before {
     content: " ";
@@ -2415,5 +2428,3 @@ p {
     color: #6d6d6d;
     margin-left: 26px;
 }
-
-/* the file is cached.. how I can rebuild github pages? */
