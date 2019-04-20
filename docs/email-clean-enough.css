@@ -2062,7 +2062,8 @@ kbd {
 .tag {
     font-family:Lucida Console, monospace;
     font-size:.7em;
-    font-weight:400
+    font-weight:400;
+    background-color: transparent;
 }
 .tag span {
     padding:.3em;
@@ -2117,13 +2118,13 @@ p.verse {
     font-size:80%
 }
 .org-src-container {
-    border:1px solid #ccc;
+/*     border:1px solid #ccc;
     box-shadow:3px 3px 3px #eee;
     font-family:Lucida Console, monospace;
     font-size:80%;
     margin:1em auto;
     padding:.1em .5em;
-    position:relative
+    position:relative */
 }
 .org-src-container>pre {
     overflow:auto
