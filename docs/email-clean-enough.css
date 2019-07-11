@@ -2383,7 +2383,8 @@ p.verse {
 .section-number-2::after {
     content: ".";
 }
-.section-number-3 {
+.section-number-3,
+.section-number-4 {
     display: none;
 }
 
